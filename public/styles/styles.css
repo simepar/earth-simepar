@@ -105,16 +105,24 @@ body {
 #details {
     position: absolute;
     bottom: 3%;
-    left: 2%;
+    right: 2%;
     pointer-events: none;  /* This div is just a container--do not let it interfere with operation of the map. */
 }
 
 #earth {
-    font-size: 2.4rem;
+    font-size: 7px;
 }
 
-#status, #location, #menu {
-    font-size: 1.75rem;
+#status {
+    font-size: 12px;
+}
+
+#location, #menu {
+    font-size: 21px;
+}
+
+#canvas#scale {
+    width: 150px;
 }
 
 #status, #location, #earth {
@@ -133,7 +141,7 @@ body {
     pointer-events: all;
 
     margin-top: 1rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     opacity: 1;
     max-height: 34rem;
     transition: opacity 250ms ease, max-height 250ms ease, margin-top 250ms ease;
@@ -150,7 +158,7 @@ body {
 }
 
 #progress {
-    padding-left: 1rem;
+    font-size: 7px;
 }
 
 #nav-now {
