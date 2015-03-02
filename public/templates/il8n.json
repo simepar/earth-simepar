@@ -1,10 +1,21 @@
 {
     "lang": {
         "en": "en",
-        "ja": "ja"
+        "ja": "ja",
+        "pt": "pt",
+        "es": "es"
+    },
+    "title": {
+        "en": "earth :: an animated map of global wind and weather",
+        "es": "earth :: um mapa animado de viento global y tiempo",
+        "pt": "earth :: um mapa animado de vento e clima",
+        "jp": "earth :: an animated map of global wind and weather"
     },
     "Date": {
-        "ja": "日付"
+        "ja": "日付 | ",
+        "pt": "Data | ",
+        "en": "Date | ",
+        "es": "Fecha | "
     },
     "Layer": {
         "ja": "曲面"
@@ -22,7 +33,10 @@
         "ja": "このサイトはIE9より以上が必要です。"
     },
     "Data": {
-        "ja": "データ"
+        "ja": "データ | ",
+        "en": "Data | ",
+        "pt": "Dados | ",
+        "es": "Datos | "
     },
     "NCEP / National Weather Service / NOAA": {
         "ja": "NCEP / アメリカ国立気象局 / NOAA"
@@ -31,13 +45,22 @@
         "ja": "GFS / NCEP / アメリカ国立気象局"
     },
     "Control": {
-        "ja": "操作"
+        "en": "Control | ",
+        "ja": "操作 | ",
+        "es": "Control | ",
+        "pt": "Controle | "
     },
     "Current Conditions": {
-        "ja": "現在状況"
+        "ja": "現在状況",
+        "en": "Current Conditions",
+        "pt": "Condições atuais",
+        "es": "Condições atuais"
     },
     "Now": {
-        "ja": "最新"
+        "ja": "最新",
+        "es": "Ahora",
+        "pt": "Agora",
+        "en": "Now"
     },
     "-1 Day": {
         "ja": "前日"
@@ -52,106 +75,213 @@
         "ja": "前日"
     },
     "Current Position": {
-        "ja": "現在地"
+        "ja": "現在地",
+        "pt": "Posição Atual",
+        "en": "Current Position",
+        "es": "Posición Actual"
     },
     "Height": {
-        "ja": "高度"
+        "ja": "高度 | ",
+        "es": "Height | ",
+        "pt": "Altura | ",
+        "es": "Altura | "
+    },
+    "Overlay | ": {
+        "ja": "レイヤー | ",
+        "es": "Superposición | ",
+        "en": "Overlay | ",
+        "pt": "Sobreposição | "
     },
     "Overlay": {
-        "ja": "レイヤー"
+        "ja": "レイヤー | ",
+        "es": "Superposición | ",
+        "en": "Overlay | ",
+        "pt": "Sobreposição | "
     },
     "None": {
-        "ja": "無"
+        "ja": "無",
+        "pt": "Nenhum",
+        "es": "Ninguno",
+        "en": "None"
     },
     "Wind": {
-        "ja": "風速"
+        "ja": "風速",
+        "en": "Wind",
+        "pt": "Vento",
+        "es": "Viento"
+    },
+    "Wind | ": {
+        "ja": "風速 | ",
+        "en": "Wind | ",
+        "pt": "Vento | ",
+        "es": "Viento | "
     },
     "Projection": {
-        "ja": "投影法"
+        "ja": "投影法 | ",
+        "pt": "Projeção | ",
+        "es": "Projeción | ",
+        "en": "Projection | "
     },
     "Atlantis": {
         "ja": "アトランティス"
     },
     "Azimuthal Equidistant": {
-        "ja": "正距方位"
+        "ja": "正距方位",
+        "pt": "Azimutal Equidistante",
+        "es": "Acimutal Equidistante",
+        "en": "Azimuthal Equidistant"
     },
     "Conic Equidistant": {
-        "ja": "正距円錐"
+        "ja": "正距円錐",
+        "es": "Conica Equidistante",
+        "pt": "Cônica Equidistante",
+        "en": "Conic Equidistant"
     },
     "Equirectangular": {
-        "ja": "正距円筒"
+        "ja": "正距円筒",
+        "en": "Equirectangular",
+        "pt": "Equiretangular", 
+        "es": "Equiretangular"
     },
     "Orthographic": {
-        "ja": "正射"
+        "ja": "正射",
+        "en": "Orthographic",
+        "pt": "Ortográfica",
+        "es": "Ortográfica"
     },
     "Stereographic": {
-        "ja": "平射"
+        "ja": "平射",
+        "en": "Stereographic",
+        "pt": "Estereográfica",
+        "es": "Estereográfica"
     },
     "Waterman Butterfly": {
-        "ja": "ウォーターマン蝶型"
+        "ja": "ウォーターマン蝶型",
+        "pt": "Waterman Butterfly",
+        "en": "Waterman Butterfly",
+        "es": "Waterman Butterfly"
     },
     "Winkel Tripel": {
-        "ja": "ヴィンケル第3"
+        "ja": "ヴィンケル第3",
+        "en": "Winkel Tripel",
+        "en": "Winkel Tripel"
     },
     "about": {
-        "ja": "サイトについて"
+        "ja": "サイトについて",
+        "pt": "sobre",
+        "es": "sobre",
+        "en": "about"
     },
     "about earth": {
-        "ja": "地球について"
+        "ja": "地球について",
+        "en": "About Earth",
+        "pt": "Sobre o projeto",
+        "es": "Sobre o projeto"
     },
     "a visualization of global weather conditions": {
-        "ja": "世界中の気象状況がビジュアライズ"
+        "ja": "世界中の気象状況がビジュアライズ",
+        "en": "a visualization of global weather conditions",
+        "pt": "uma visualização das condições de tempo globais",
+        "es": "una vista de las condiciones climáticas globales"
     },
     "forecast by supercomputers": {
-        "ja": "スーパーコンピュータが予報"
+        "ja": "スーパーコンピュータが予報",
+        "en": "forecast by supercomputers",
+        "pt": "previsão feita por supercomputadores",
+        "es": "predicción hecha por superordenadores"
     },
     "updated every three hours": {
-        "ja": "３時間ごとの更新"
+        "ja": "３時間ごとの更新",
+        "en": "updated every three hours",
+        "pt": "atualizado a cada três horas",
+        "es": "actualizado cada tres horas"
     },
     "Community": {
-        "ja": "コミュニティ"
+        "ja": "コミュニティ | ",
+        "en": "Community | ",
+        "pt": "Comunidade | ",
+        "es": "Comunidad | "
     },
     "community": {
-        "ja": "コミュニティ"
+        "ja": "コミュニティ",
+        "pt": "comunidade",
+        "en": "community",
+        "es": "comunidad"
     },
     "Author": {
-        "ja": "作り手"
+        "ja": "作り手 | ",
+        "en": "Author | ",
+        "pt": "Autor | ",
+        "es": "Autor | "
     },
     "Source": {
-        "ja": "ソースコード"
+        "ja": "ソースコード | ",
+        "en": "Souce | ",
+        "pt": "Código fonte | ",
+        "es": "Código fuente | "
     },
     "Modules": {
-        "ja": "使用ライブラリ"
+        "ja": "使用ライブラリ | ",
+        "pt": "Módulos | ",
+        "es": "Módulos | ",
+        "en": "Modules | "
     },
     "Weather Data": {
-        "ja": "天気予報データ"
+        "ja": "天気予報データ | ",
+        "pt": "Dados Meteorológicos | ",
+        "pt": "Dados Meteorológicos | ",
+        "en": "Weather Data | "
     },
     "GRIB/NetCDF Decoder": {
-        "ja": "GRIB/NetCDF デコーダ"
+        "ja": "GRIB/NetCDF デコーダ | ",
+        "en": "GRIB/NetCDF Decoder | ",
+        "pt": "Decodificadores GRIB/NETCDF | ",
+        "es": "Decodificadores GRIB/NETCDF | "
     },
     "Geographic Data": {
-        "ja": "地理データ"
+        "ja": "地理データ | ",
+        "en": "Geographic Data | ",
+        "pt": "Dados Geográficos | ",
+        "es": "Dados Espaciales | "
     },
     "Font": {
-        "ja": "フォント"
+        "ja": "フォント | ",
+        "en": "Font | ",
+        "pt": "Fonte | ",
+        "es": "Fuente | "
     },
     "Earlier Work": {
-        "ja": "関連サイト"
+        "ja": "関連サイト | ",
+        "pt": "Trabalho anterior | ",
+        "en": "Earlier Work | ",
+        "es": "Trabajo anterior | "
     },
     "Tokyo Wind Map": {
         "ja": "東京風速"
     },
     "Inspiration": {
-        "ja": "インスピレーション"
+        "ja": "インスピレーション | ",
+        "en": "Inspiration | ",
+        "pt": "Inspiração | ",
+        "es": "Inspiración | "
     },
     "atmospheric pressure corresponds roughly to altitude": {
-        "ja": "各気圧によるおおむねの高度"
+        "ja": "各気圧によるおおむねの高度",
+        "pt": "Pressão atmosférica corresponde aproximadamente à altitude",
+        "es": "La presión atmosférica es de aproximadamente la altitud",
+        "en": "atmospheric pressure corresponds roughly to altitude" 
     },
     "several pressure surfaces are meteorologically interesting": {
-        "ja": ""
+        "ja": "",
+        "pt": "várias camadas de pressão são meteorologicamente interessantes",
+        "es": "diversas capas de presión son interessantes meteorológicamente",
+        "en": "several pressure surfaces are meteorologically interesting"
     },
     "note: 1 hectopascal (hPa) ≡ 1 millibar (mb)": {
-        "ja": "note: 1 ヘクトパスカル (hPa) ≡ 1 ミリバール (mb)"
+        "ja": "note: 1 ヘクトパスカル (hPa) ≡ 1 ミリバール (mb)",
+        "pt": "nota: 1 hectopascal (hPa) ≡ 1 millibar (mb)",
+        "es": "nota: 1 hectopascal (hPa) ≡ 1 millibar (mb)",
+        "en": "note: 1 hectopascal (hPa) ≡ 1 millibar (mb)"
     },
     "surface conditions": {
         "ja": "地上付近"
@@ -190,10 +320,16 @@
         "ja": "もっと成層圏"
     },
     "weather and ocean data are generated from numerical models": {
-        "ja": ""
+        "ja": "",
+        "en": "weather and ocean data are generated from numerical models",
+        "pt": "dados de tempo e oceano são gerados por modelos numéricos",
+        "es": "tiempo y datos oceánicos se generan a partir de modelos numéricos"
     },
     "implies no guarantee of accuracy": {
-        "ja": "は正確な情報を提供するためのものではありません"
+        "ja": "は正確な情報を提供するためのものではありません",
+        "en": "implies no guarantee of accuracy",
+        "es": "no implica garantía de exactitud",
+        "pt": "não implica em garantia de acurácia"
     },
     "/jp": {
         "ja": "/"
@@ -202,89 +338,166 @@
         "ja": "English"
     },
     "Hosting": {
-        "ja": "ホスティング"
+        "ja": "ホスティング | ",
+        "en": "Hosting | ",
+        "pt": "Hospedagem | ",
+        "es": "Alojamiento | "
     },
     "Scale": {
-        "ja": "スケール"
+        "ja": "スケール | ",
+        "en": "Scale | ",
+        "pt": "Escala | ",
+        "es": "Escala | "
     },
     "DataSource": {
-        "en": "Source",
-        "ja": "発信源"
+        "en": "Source | ",
+        "ja": "発信源 | ",
+        "es": "Codigo Fuente | ",
+        "pt": "Código Fonte | "
     },
     "Sfc": {
         "ja": "地上"
     },
     "Surface": {
-        "ja": "地上"
+        "ja": "地上",
+        "en": "Surface",
+        "pt": "Superfície",
+        "es": "Superficie"
     },
     "Wind Speed": {
-        "ja": "風速"
+        "ja": "風速",
+        "en": "Wind Speed",
+        "pt": "Velocidade do Vento",
+        "es": "Velocidad del Viento"
     },
     "Temp": {
-        "ja": "気温"
+        "ja": "気温",
+        "en": "Temp",
+        "es": "Temp",
+        "pt": "Temp"
+    },
+    "Temp | ": {
+        "ja": "気温 | ",
+        "en": "Temp | ",
+        "es": "Temp | ",
+        "pt": "Temp | "
     },
     "Temperature": {
-        "ja": "気温"
+        "ja": "気温",
+        "pt": "Temperatura",
+        "en": "Temperature",
+        "es": "Temperatura"
     },
     "Total Cloud Water": {
-        "ja": "雲水量"
+        "ja": "雲水量",
+        "pt": "Total de Água em Nuvem",
+        "es": "Agua Total de Nubes",
+        "en": "Total Cloud Water"
     },
     "TCW": {
-        "ja": "雲水量"
+        "ja": "雲水量",
+        "pt": "TAN",
+        "es": "ATN",
+        "en": "TCW"
     },
     "Total Precipitable Water": {
-        "ja": "可降水量"
+        "ja": "可降水量",
+        "pt": "Total de Água Precipitável",
+        "es": "Total de Água Precipitável?",
+        "en": "Total Precipitable Water"
     },
     "TPW": {
-        "ja": "可降水量"
+        "ja": "可降水量",
+        "pt": "TAP",
+        "es": "TAP?",
+        "en": "TPW"
     },
     "http://en.wikipedia.org/wiki/Precipitable_water": {
         "ja": "http://ja.wikipedia.org/wiki/可降水量"
     },
     "Mean Sea Level Pressure": {
-        "ja": "海面更正気圧"
+        "ja": "海面更正気圧",
+        "pt": "Pressão a Nivel Médio do Mar",
+        "es": "MSLP??",
+        "en": "Mean Sea Level Pressure"
     },
     "MSLP": {
-        "ja": "海面更正"
+        "ja": "海面更正",
+        "pt": "PNMM",
+        "es": "MSLP???",
+        "en": "MSLP"
     },
     "http://en.wikipedia.org/wiki/Atmospheric_pressure#Mean_sea_level_pressure": {
         "ja": "http://ja.wikipedia.org/wiki/海面更正"
     },
     "several pressure layers are meteorologically interesting": {
-        "ja": ""
+        "ja": "",
+        "pt": "várias camadas de pressão são meteorologicamente interessantes",
+        "es": "diversas capas de presión son interessantes meteorológicamente",
+        "en": "several pressure layers are meteorologically interesting"
     },
     "they show data assuming the earth is completely smooth": {
-        "ja": ""
+        "ja": "",
+        "pt": "pois elas mostram dados assumindo que a terra é completamente suave",
+        "es": "porque muestran los datos asumiente el suelo es muy suave",
+        "en": "they show data assuming the earth is completely smooth"
     },
     "near sea level conditions": {
         "ja": ""
     },
     "the \"Surface\" layer represents conditions at ground or water level": {
-        "ja": ""
+        "ja": "",
+        "pt": "a camada \"Superfície\" representa condições no solo ou altura da água",
+        "es": "capa de \"Superfície\" está en la altura del terreno o las condiciones del agua",
+        "en": "the \"Surface\" layer represents conditions at ground or water level"
     },
     "this layer follows the contours of mountains, valleys, etc.": {
-        "ja": ""
+        "ja": "",
+        "pt": "esta camada segue os contornos de montanhas, vales, etc",
+        "es": "esta capa sigue los contornos de las montañas, valles, etc.",
+        "en": "this layer follows the contours of mountains, valleys, etc."
     },
     "overlays show another dimension of data using color": {
-        "ja": ""
+        "ja": "",
+        "pt": "camadas mostram outra dimensão de dados usando cor",
+        "es": "capas muestran otra dimensión de datos utilizando el color",
+        "en": "overlays show another dimension of data using color"
     },
     "some overlays are valid at a specific height": {
-        "ja": ""
+        "ja": "",
+        "pt": "algumas camadas são válidas em alturas específicas",
+        "es": "algunas capas son válidas en momentos específicos",
+        "en": "some overlays are valid at a specific height"
     },
     "while others are valid for the entire thickness of the atmosphere": {
-        "ja": ""
+        "ja": "",
+        "en": "while others are valid for the entire thickness of the atmosphere",
+        "pt": "enquanto outras são válidas para toda a espessura da atmosfera",
+        "es": "enquanto outras são válidas para todo el espesor de la atmósfera"
     },
     "wind speed at specified height": {
-        "ja": ""
+        "ja": "",
+        "en": "wind speed at specified height",
+        "pt": "velocidade do vento na altura especificada",
+        "es": "velocidad del viento a la altura especificada"
     },
     "temperature at specified height": {
-        "ja": ""
+        "ja": "",
+        "en": "temperature at specified height",
+        "pt": "temperatura na altura especificada",
+        "es": "temperatura a la altura especificada"
     },
     "total amount of water in a column of air": {
-        "ja": ""
+        "ja": "",
+        "en": "total amount of water in a column of air",
+        "pt": "total de água numa coluna de ar",
+        "es": "total de água en una columna de aire"
     },
     "stretching from ground to space": {
-        "ja": ""
+        "ja": "",
+        "en": "stretching from ground to space",
+        "es": "desde el suelo hasta el espacio",
+        "pt": "do solo ao espaço"
     },
     "total amount of water in clouds": {
         "ja": ""
@@ -296,16 +509,28 @@
         "ja": ""
     },
     "Grid": {
-        "ja": "グリッド"
+        "ja": "グリッド",
+        "en": "Grid",
+        "pt": "Grid",
+        "es": "Grid"
     },
     "Toggle Grid": {
-        "ja": ""
+        "ja": "",
+        "en": "Toggle Grid",
+        "pt": "Alternar grid",
+        "es": "Cambiar grid"
     },
     "Mode": {
-        "ja": "モード"
+        "ja": "モード | ",
+        "es": "Mode | ",
+        "pt": "Modo | ",
+        "es": "Modo | "
     },
     "Ocean": {
-        "ja": "海"
+        "ja": "海",
+        "en": "Ocean",
+        "pt": "Oceano",
+        "es": "Oceáno"
     },
     "Animate": {
         "ja": "動画"
@@ -314,13 +539,22 @@
         "ja": "海流"
     },
     "ocean surface current estimates": {
-        "ja": "海流"
+        "ja": "海流",
+        "en": "ocean surface current estimates",
+        "pt": "estimativas de correntes oceânicas",
+        "es": "estimaciones de las corrientes oceánicas"
     },
     "updated every five days": {
-        "ja": "５日ごとの更新"
+        "ja": "５日ごとの更新",
+        "en": "updated every five days",
+        "pt": "atualizadas a cada cinco dias",
+        "es": "actualizado cada cinco días"
     },
     "Ocean Currents Data": {
-        "ja": "海流データ"
+        "ja": "海流データ | ",
+        "pt": "Dados de Correntes Oceânicas",
+        "es": "Dados de Correntes Oceánicas",
+        "en": "Ocean Currents Data"
     },
     "Earth & Space Research": {
         "ja": ""
@@ -329,25 +563,46 @@
         "ja": ""
     },
     "Relative Humidity": {
-        "ja": "相対湿度"
+        "ja": "相対湿度",
+        "pt": "Humidade Relativa do Ar",
+        "es": "Humedad Relativa",
+        "en": "Relative Humidity"
     },
     "RH": {
-        "ja": "相対湿度"
+        "ja": "相対湿度",
+        "pt": "HR",
+        "es": "HR",
+        "en": "RH"
     },
     "Air Density": {
-        "ja": "空気密度"
+        "ja": "空気密度",
+        "pt": "Densidade do Ar",
+        "es": "Densidad del Aire",
+        "en": "Air Density"
     },
     "AD": {
-        "ja": "空気密度"
+        "ja": "空気密度",
+        "pt": "DA",
+        "es": "DA",
+        "en": "AD"
     },
     "Wind Power Density": {
-        "ja": "風力エネルギー密度"
+        "ja": "風力エネルギー密度",
+        "pt": "Força da Densidade do Vento",
+        "es": "Densidad de Potencia del Viento"
     },
     "WPD": {
-        "ja": "WPD"
+        "ja": "WPD",
+        "pt": "FDV",
+        "es": "DPV",
+        "en": "WPD"
     },
     "Air": {
         "ja": "大気圏",
+        "pt": "Ar",
+        "es": "Aire",
+        "en": "Air",
         "comment": "Japanese version means 'Atmosphere'"
     }
+
 }

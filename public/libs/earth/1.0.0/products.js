@@ -89,6 +89,14 @@ var products = function() {
         return attr.surface === "surface" ? "地上" : µ.capitalize(attr.level);
     }
 
+    function describeSurfacePt(attr) {
+        return attr.surface === "surface" ? "Superfície" : µ.capitalize(attr.level);
+    }
+
+    function describeSurfaceEs(attr) {
+        return attr.surface === "surface" ? "Superficie" : µ.capitalize(attr.level);
+    }
+
     /**
      * Returns a function f(langCode) that, given table:
      *     {foo: {en: "A", ja: "あ"}, bar: {en: "I", ja: "い"}}
@@ -116,8 +124,13 @@ var products = function() {
                     field: "vector",
                     type: "wind",
                     description: localize({
-                        name: {en: "Wind", ja: "風速"},
-                        qualifier: {en: " @ " + describeSurface(attr), ja: " @ " + describeSurfaceJa(attr)}
+                        name: {en: "Wind", ja: "風速", pt: "Vento", es: "Viento"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "wind", attr.surface, attr.level)],
                     date: gfsDate(attr),
@@ -155,8 +168,13 @@ var products = function() {
                     field: "scalar",
                     type: "temp",
                     description: localize({
-                        name: {en: "Temp", ja: "気温"},
-                        qualifier: {en: " @ " + describeSurface(attr), ja: " @ " + describeSurfaceJa(attr)}
+                        name: {en: "Temp", ja: "気温", pt: "Temperatura", es: "Temperatura"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "temp", attr.surface, attr.level)],
                     date: gfsDate(attr),
@@ -202,8 +220,13 @@ var products = function() {
                     field: "scalar",
                     type: "relative_humidity",
                     description: localize({
-                        name: {en: "Relative Humidity", ja: "相対湿度"},
-                        qualifier: {en: " @ " + describeSurface(attr), ja: " @ " + describeSurfaceJa(attr)}
+                        name: {en: "Relative Humidity", ja: "相対湿度", pt: "Umidade Relativa", es: "Humedad Relativa"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "relative_humidity", attr.surface, attr.level)],
                     date: gfsDate(attr),
@@ -239,8 +262,13 @@ var products = function() {
                     field: "scalar",
                     type: "air_density",
                     description: localize({
-                        name: {en: "Air Density", ja: "空気密度"},
-                        qualifier: {en: " @ " + describeSurface(attr), ja: " @ " + describeSurfaceJa(attr)}
+                        name: {en: "Air Density", ja: "空気密度", pt: "Densidade do Ar", es: "Densidad del Aire"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "air_density", attr.surface, attr.level)],
                     date: gfsDate(attr),
@@ -277,8 +305,13 @@ var products = function() {
                     field: "scalar",
                     type: "wind_power_density",
                     description: localize({
-                        name: {en: "Wind Power Density", ja: "風力エネルギー密度"},
-                        qualifier: {en: " @ " + describeSurface(attr), ja: " @ " + describeSurfaceJa(attr)}
+                        name: {en: "Wind Power Density", ja: "風力エネルギー密度", pt: "Densidade da Força do Vento", es: "Densidad de la Energía Eólica"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [windProduct.paths[0], airdensProduct.paths[0]],
                     date: gfsDate(attr),
@@ -328,8 +361,13 @@ var products = function() {
                     field: "scalar",
                     type: "total_cloud_water",
                     description: localize({
-                        name: {en: "Total Cloud Water", ja: "雲水量"},
-                        qualifier: ""
+                        name: {en: "Total Cloud Water", ja: "雲水量", pt: "Total de Água em Nuvem", es: "Nube de Agua Total"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "total_cloud_water")],
                     date: gfsDate(attr),
@@ -365,8 +403,13 @@ var products = function() {
                     field: "scalar",
                     type: "total_precipitable_water",
                     description: localize({
-                        name: {en: "Total Precipitable Water", ja: "可降水量"},
-                        qualifier: ""
+                        name: {en: "Total Precipitable Water", ja: "可降水量", pt: "Total de água precipitável", es: "Agua Precipitable Total"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "total_precipitable_water")],
                     date: gfsDate(attr),
@@ -407,8 +450,13 @@ var products = function() {
                     field: "scalar",
                     type: "mean_sea_level_pressure",
                     description: localize({
-                        name: {en: "Mean Sea Level Pressure", ja: "海面更正気圧"},
-                        qualifier: ""
+                        name: {en: "Mean Sea Level Pressure", ja: "海面更正気圧", pt: "Pressão ao Nível Médio do Mar", es: "Presíon a Nivel Medio del Mar"},
+                        qualifier: {
+                            en: " @ " + describeSurface(attr),
+                            ja: " @ " + describeSurfaceJa(attr),
+                            pt: " @ " + describeSurfacePt(attr),
+                            es: " @ " + describeSurfaceEs(attr)
+                        }
                     }),
                     paths: [gfs1p0degPath(attr, "mean_sea_level_pressure")],
                     date: gfsDate(attr),
@@ -452,8 +500,13 @@ var products = function() {
                         field: "vector",
                         type: "currents",
                         description: localize({
-                            name: {en: "Ocean Currents", ja: "海流"},
-                            qualifier: {en: " @ Surface", ja: " @ 地上"}
+                            name: {en: "Ocean Currents", ja: "海流", pt: "Correntes Oceânicas", es: "Corrientes Oceánicas"},
+                            qualifier: {
+                                en: " @ " + describeSurface(attr),
+                                ja: " @ " + describeSurfaceJa(attr),
+                                pt: " @ " + describeSurfacePt(attr),
+                                es: " @ " + describeSurfaceEs(attr)
+                            }
                         }),
                         paths: [oscar0p33Path(catalog, attr)],
                         date: oscarDate(catalog, attr),

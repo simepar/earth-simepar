@@ -21,7 +21,7 @@
     <link rel="alternate" hreflang="x-default" href="http://earth.nullschool.net/"/>
     <link rel="alternate" hreflang="ja" href="http://earth.nullschool.net/jp/"/>
 </head>
-<body data-lang="en">
+<!--body data-lang="en"-->
 
     <!--[if lte IE 8]><p id="warn">This site requires IE9 or newer.</p><![endif]-->
 
@@ -54,18 +54,21 @@
             </p>
         </div>
 
+
         <div id="menu" class="visible center-block">
             <p id="earth">
                 <span id="progress" class="invisible"></span>
             </p>
 
-            <p><span
+            <p><span id="date"></span><span
                 id="data-date" class="local"></span> <span
                 id="toggle-zone" class="text-button"></span>
             </p>
-            <p><span id="data-layer"></span></p>
+            <p><span id="data"></span><span id="data-layer"></span></p>
             <p><span id="scale-label"></span><canvas id="scale"></canvas></p>
-        </div>  
+
+            <!--<p>免責事項 | 正確な情報を提供するためのものではありません</p>-->
+        </div>
     </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js" charset="utf-8"></script>
@@ -84,10 +87,13 @@
     <script src="/libs/d3.geo/0.0.0/d3.geo.polyhedron.v0.min.js" charset="utf-8"></script>
     <script src="/libs/when/2.6.0/when.js" charset="utf-8"></script>
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
     <script src="/libs/earth/1.0.0/micro.js" charset="utf-8"></script>
     <script src="/libs/earth/1.0.0/globes.js" charset="utf-8"></script>
     <script src="/libs/earth/1.0.0/products.js" charset="utf-8"></script>
     <script src="/libs/earth/1.0.0/earth.js" charset="utf-8"></script>
+    <script src="/libs/earth/1.0.0/internationalization.js" charset="utf-8"></script>
 
 </body>
 </html>

@@ -733,7 +733,8 @@
         showDate(grids);
         var description = "", center = "";
         if (grids) {
-            var langCode = d3.select("body").attr("data-lang") || "en";
+            //var langCode = d3.select("body").attr("data-lang") || "en";
+            var langCode = "pt";
             var pd = grids.primaryGrid.description(langCode), od = grids.overlayGrid.description(langCode);
             description = od.name + od.qualifier;
             if (grids.primaryGrid !== grids.overlayGrid) {
