@@ -11,8 +11,23 @@ A customized instance of "earth" is available at http://earth.nullschool.net.
 [Tokyo Wind Map](https://github.com/cambecc/air) project.  Feedback and contributions are welcome! ...especially
 those that clarify accepted best practices.
 
-building and launching
-----------------------
+Python HTTP server launch
+------------------------
+Clone the repository and then enter the public directory: 
+
+    git clone https://github.com/simepar/earth-simepar
+    cd earth-simepar/public
+    
+Next, launch the development web server:
+
+    python -m SimpleHTTPServer 8080
+    
+Finally, point your browser to:
+
+    http://localhost:8080
+
+Node server building and launching
+----------------------------------
 
 After installing node.js and npm, clone "earth" and install dependencies:
 
@@ -74,6 +89,23 @@ utility:
     curl "http://nomads.ncep.noaa.gov/cgi-bin/filter_gfs.pl?file=gfs.t00z.pgrbf00.grib2&lev_10_m_above_ground=on&var_UGRD=on&var_VGRD=on&dir=%2Fgfs.${YYYYMMDD}00" -o gfs.t00z.pgrbf00.grib2
     grib2json -d -n -o current-wind-surface-level-gfs-1.0.json gfs.t00z.pgrbf00.grib2
     cp current-wind-surface-level-gfs-1.0.json <earth-git-repository>/public/data/weather/current
+    
+URL examples
+------------
+Wind at current time:
+
+    http://localhost:8080 or http://localhost:8080/#current/wind/surface/level//orthographic
+    
+Temperature at current time:
+
+    http://localhost:8080/#current/wind/surface/level/overlay=temp/orthographic
+    
+Mean sea level pressure with specified coordinates at current time:
+
+    http://localhost:8080/#current/wind/surface/level/overlay=mean_sea_level_pressure/orthographic=-44.97,-1.85,362
+Accumulated water at specified time with coordinates:
+    
+    http://localhost:8080/#2015/03/04/0900Z/wind/surface/level/overlay=total_precipitable_water/orthographic=-44.97,-1.85,362
 
 font subsetting
 ---------------
